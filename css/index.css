@@ -137,38 +137,50 @@ h1 {
   nav {
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
     height: 370px;
   }
+
   .nav-bar {
     padding: 5px;
   }
+
   nav .seven {
     order: -1;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
+    padding-left: 100px;
+    padding-right: 100px;
   }
+
   nav .one  {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
     width: 100%;
   }
+
   nav .two {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
     width: 100%;
   }
+
   nav .three {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
     width: 100%;
   }
+
   nav .four {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
     width: 100%;
   }
+
   nav .five {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
     width: 100%;
   }
+
   h1 {
     font-size: 35px;
   }
+
   .header-image {
     display: none;
   }
