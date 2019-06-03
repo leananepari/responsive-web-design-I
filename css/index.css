@@ -112,6 +112,11 @@ nav a img {
   text-shadow: 5px 5px 10px rgba(0,0,0,.2);
 }
 
+h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
 @media (max-width: 800px) {
   nav {
     flex-wrap: wrap-reverse;
@@ -120,13 +125,53 @@ nav a img {
     justify-content: space-around;
   }
   .nav-bar a {
-    padding: 15px;
+    padding: 16px;
+    /* font-size: 15px; */
+  }
+  h1 {
+    font-size: 50px;
   }
 }
 
-h1 {
-  font-size: 60px;
-  letter-spacing: 5px;
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 370px;
+  }
+  .nav-bar {
+    padding: 5px;
+  }
+  nav .seven {
+    order: -1;
+    border-bottom: 1px solid black;
+  }
+  nav .one  {
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+  nav .two {
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+  nav .three {
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+  nav .four {
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+  nav .five {
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .header-image {
+    display: none;
+  }
 }
 
 .header-content {
@@ -169,6 +214,12 @@ p {
   line-height: 1.5;
 }
 
+@media (max-width: 800px) {
+  p {
+    font-size: 14px;
+  }
+}
+
 .first-row {
   display: flex;
   padding-top: 20px;
@@ -208,6 +259,24 @@ p {
 .third-row .right {
   padding: 30px;
   padding-right: 0px;
+}
+
+@media (max-width: 500px) {
+  .first-row {
+    flex-direction: column;
+  }
+  .first-row .item-two {
+    padding-left: 0;
+  }
+  .third-row {
+    flex-direction: column;
+  }
+  .third-row .middle {
+    padding-left: 0px;
+  }
+  .third-row .right {
+    padding-left: 0px;
+  }
 }
 
 /* ============================
