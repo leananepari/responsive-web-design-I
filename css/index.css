@@ -81,7 +81,7 @@ header {
  text-align: center;
 }
 
-.navBar {
+.nav-bar {
   width: 80%;
   position: fixed;
   top: 0;
@@ -317,3 +317,92 @@ footer {
   padding: 30px;
 }
 
+
+/* -----------------------------------------------------------------------------
+   S E R V I C E S   P A G E
+------------------------------------------------------------------------------*/
+
+/* ==============================
+ HEADER
+===============================*/
+.header-content-services-page {
+  border-bottom: 1px solid black;
+  padding-top: 80px;
+}
+.header-content-services-page img {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.title-services-page h1 {
+  font-size: 50px;
+  text-align: left;
+}
+.description-services-page p {
+  font-size: 18px;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+/* =================================
+ MAIN
+==================================*/
+.container-services-page {
+  display: flex;
+  padding-top: 30px;
+}
+.last-row-services-page {
+  padding-bottom: 30px;
+}
+.item-services-page {
+  padding: 20px;
+  background-color: #f7f4f4;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+.left-item {
+  margin-right: 30px;
+}
+.item-services-page p {
+  padding-bottom: 10px;
+}
+.item-services-page button {
+  padding: 8px;
+  width: 130px;
+  background-color: #f9f9ff;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: 0;
+  cursor: pointer;
+}
+.item-services-page button:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,.2);
+}
+
+/* =================================
+ FOOTER
+==================================*/
+.footer-container-services-page {
+  display: flex;
+}
+.footer-item-services-page {
+  padding-top: 30px;
+}
+.footer-item-services-page p {
+  padding-bottom: 20px;
+  padding-right: 60px;
+  text-align: justify;
+}
+.footer-item-services-page ul {
+  list-style-position: inside;
+}
+.footer-item-services-page ul li {
+  padding-bottom: 10px;
+}
+.footer-item-services-page ul li::before {
+  color: black;
+  content: "\25CF";
+  padding-right: 10px;
+}
+.footer-item-services-page img {
+  padding-bottom: 20px;
+}
