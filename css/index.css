@@ -152,8 +152,9 @@ h1 {
   nav .seven {
     order: -1;
     border-bottom: 1px solid grey;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    
   }
 
   nav .one  {
