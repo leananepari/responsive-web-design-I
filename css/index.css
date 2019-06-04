@@ -153,8 +153,8 @@ h1 {
   nav .seven {
     order: -1;
     border-bottom: 1px solid grey;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 140px;
+    padding-right: 140px;
     
   }
 
@@ -297,6 +297,10 @@ p {
     flex-direction: column;
   }
 
+  .first-row .item-one {
+    padding-right: 0px;
+  }
+
   .first-row .item-two {
     padding-left: 0;
   }
@@ -305,8 +309,13 @@ p {
     flex-direction: column;
   }
 
+  .third-row .left {
+    padding-right: 0px;
+  }
+
   .third-row .middle {
     padding-left: 0px;
+    padding-right: 0px;
   }
 
   .third-row .right {
@@ -498,5 +507,5 @@ footer {
   .footer-container-services-page {
     flex-direction: column;
   }
-  
+
 }
