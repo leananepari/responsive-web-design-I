@@ -140,11 +140,13 @@ h1 {
     flex-wrap: wrap;
     align-items: center;
     height: 370px;
-    
+    box-shadow: 0 0 0 ;
   }
 
   .nav-bar {
-    width: 80%;
+    width: 100%;
+    position: static;
+    margin: 0 auto;
   }
 
   nav .seven {
@@ -179,15 +181,20 @@ h1 {
     width: 100%;
   }
 
+  nav .six {
+    border-bottom: 1px solid grey;
+    width: 100%;
+  }
+
   h1 {
     font-size: 35px;
-    padding-top: 300px;
+    padding-top: 0px;
   }
 
   .header-image {
     display: none;
   }
-
+  
 }
 
 .header-content {
@@ -198,6 +205,11 @@ h1 {
   padding-top: 40px;
 }
 
+@media (max-width: 500px) {
+  .header-content {
+    padding-top: 0px;
+  }
+}
 .title {
   padding: 70px;
 }
