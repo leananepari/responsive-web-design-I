@@ -129,6 +129,7 @@ h1 {
     /* font-size: 15px; */
   }
   h1 {
+    padding-top: 60px;
     font-size: 50px;
   }
 }
@@ -139,6 +140,7 @@ h1 {
     flex-wrap: wrap;
     align-items: center;
     height: 370px;
+    
   }
 
   .nav-bar {
@@ -179,11 +181,13 @@ h1 {
 
   h1 {
     font-size: 35px;
+    padding-top: 300px;
   }
 
   .header-image {
     display: none;
   }
+
 }
 
 .header-content {
@@ -325,7 +329,7 @@ footer {
 /* ==============================
  HEADER
 ===============================*/
-.header-content-services-page {
+/* .header-content-services-page {
   border-bottom: 1px solid black;
   padding-top: 80px;
 }
@@ -342,11 +346,19 @@ footer {
   text-align: left;
   padding-bottom: 30px;
 }
+@media (max-width: 800px) {
+  .title-services-page h1 {
+    font-size: 40px;
+  }
+  .description-services-page p {
+    font-size: 14px;
+  }
+} */
 
 /* =================================
  MAIN
 ==================================*/
-.container-services-page {
+/* .container-services-page {
   display: flex;
   padding-top: 30px;
 }
@@ -376,12 +388,12 @@ footer {
 }
 .item-services-page button:hover {
   box-shadow: 0 0 15px rgba(0,0,0,.2);
-}
+} */
 
 /* =================================
  FOOTER
 ==================================*/
-.footer-container-services-page {
+/* .footer-container-services-page {
   display: flex;
 }
 .footer-item-services-page {
@@ -405,4 +417,4 @@ footer {
 }
 .footer-item-services-page img {
   padding-bottom: 20px;
-}
+} */
